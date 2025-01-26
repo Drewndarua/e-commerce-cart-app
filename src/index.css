@@ -1,5 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_cart");
+
 * {
+  font-family: "Courier New", Courier, monospace;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.NavBar {
+  display: flex;
+  margin: auto;
+  height: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+}
+
+.logo {
+  font-size: 40px;
+}
+
+.Checkout {
+  color: #f0ffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 15px;
 }

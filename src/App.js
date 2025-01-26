@@ -1,10 +1,14 @@
 import React from "react";
-import data from "./Data";
-import Home from "./Components/Home";
+import Header from "./Components/Header";
+import Products from "./Components/Products";
 
 const App = () => {
-  const { productItems } = data;
-  return <Home />;
+  return (
+    <div className="App">
+      <Header />
+      <Products />
+    </div>
+  );
 };
 
 export default App;
