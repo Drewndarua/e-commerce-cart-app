@@ -1,13 +1,14 @@
 import React from "react";
 import Header from "./Components/Header";
 import Cart from "./Components/Cart";
-// import Products from "./Components/Products"
-
+import data from "./Data";
+import Home from "./Components/Home";
 const App = () => {
+  const { productItem } = data;
   return (
     <div className="App">
       <Header />
-      {/* <Products /> */}
+      <Home productItem={productItem} />
       <Cart />
     </div>
   );
