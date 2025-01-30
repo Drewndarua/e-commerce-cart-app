@@ -56,3 +56,39 @@ a {
 .card.center {
   align-items: center;
 }
+
+img.small {
+  max-height: 8rem;
+}
+
+button {
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  margin: 0.1rem;
+  border-radius: 0.5;
+  border: 0.1 black solid;
+  background-color: lightseagreen;
+  width: 100%;
+  cursor: pointer;
+}
+
+button.add {
+  background-color: blueviolet;
+  width: 1.5rem;
+}
+
+button.remove {
+  background-color: red;
+  width: 1.5rem;
+}
+
+button.badge {
+  background-color: red;
+  border: none;
+  color: white;
+  width: 1.5rem;
+}
+
+.text-right {
+  text-align: right;
+}

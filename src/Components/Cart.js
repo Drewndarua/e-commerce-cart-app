@@ -1,11 +1,21 @@
 import React from "react";
 
-const Cart = () => {
+function Cart(props) {
+  const { cartItems } = props;
   return (
-    <div className="card col-1">
+    <aside>
       <h2>Cart Items</h2>
-    </div>
+      {cartItems.length === 0 ? (
+        <div>Cart Is Empty</div>
+      ) : (
+        <ul>
+          {cartItems.map((item) => (
+            <li key={item.id}>{item.name}</li>
+          ))}
+        </ul>
+      )}
+    </aside>
   );
-};
+}
 
 export default Cart;
