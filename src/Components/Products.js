@@ -1,7 +1,7 @@
 import React from "react";
 
 const Products = (props) => {
-  const { productItem } = props;
+  const { productItem, onAdd } = props;
   return (
     <div>
       <img
@@ -11,7 +11,7 @@ const Products = (props) => {
       <h3>{productItem.name}</h3>
       <div>${productItem.price}</div>
       <div>
-        <button>Add to Cart</button>
+        <button onClick={() => onAdd(productItem)}>Add to Cart</button>
       </div>
     </div>
   );
