@@ -4,9 +4,7 @@ const Header = () => {
   return (
     <header className="card center block">
       <div>
-        <a href="#/">
-          <h1>Shop</h1>
-        </a>
+        <h1>Shop</h1>
       </div>
       <div>
         <a href="#/cart">Cart</a>

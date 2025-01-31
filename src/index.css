@@ -46,13 +46,6 @@ a {
   flex: 2;
 }
 
-.card.center.block {
-  display: "flex";
-  justifycontent: "space-between";
-  alignitems: "center";
-  padding: "1rem";
-}
-
 .card {
   background-color: lightslategrey;
   padding: 1rem;
