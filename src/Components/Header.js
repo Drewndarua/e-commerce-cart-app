@@ -1,16 +1,25 @@
 import React from "react";
 
-const Header = () => {
+function Header(props) {
+  const { countCartItems } = props;
   return (
-    <header className="card center block">
+    <header className="Navbar">
       <div>
         <h1>Shop</h1>
       </div>
       <div>
-        <a href="#/cart">Cart</a>
+        <a href="#/Cart">
+          Cart{""}
+          {countCartItems ? (
+            <button className="badge">{countCartItems}</button>
+          ) : (
+            ""
+          )}
+        </a>
+        {""}
       </div>
     </header>
   );
-};
+}
 
 export default Header;

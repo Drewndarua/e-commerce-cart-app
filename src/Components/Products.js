@@ -1,9 +1,9 @@
 import React from "react";
 
-const Products = (props) => {
+function Products(props) {
   const { productItem, onAdd } = props;
   return (
-    <div>
+    <div className="Products">
       <img
         className="small"
         src={productItem.image}
@@ -15,6 +15,6 @@ const Products = (props) => {
       </div>
     </div>
   );
-};
+}
 
 export default Products;

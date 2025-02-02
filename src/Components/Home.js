@@ -1,7 +1,7 @@
 import React from "react";
 import Products from "./Products";
 
-const Home = (props) => {
+function Home(props) {
   const { productItem, onAdd } = props;
   return (
     <div className="card col-2">
@@ -16,6 +16,6 @@ const Home = (props) => {
       </div>
     </div>
   );
-};
+}
 
 export default Home;

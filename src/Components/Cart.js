@@ -40,6 +40,12 @@ function Cart(props) {
             <div className="col-2">Total Price</div>
             <div>${totalPrice.toFixed(2)}</div>
           </div>
+          <hr />
+          <div>
+            <button onClick={() => alert("Are you sure you want to checkout?")}>
+              Checkout
+            </button>
+          </div>
         </>
       )}
     </aside>

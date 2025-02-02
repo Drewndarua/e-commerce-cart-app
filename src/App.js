@@ -34,7 +34,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <Header />
+      <Header counterCartItems={cartItems.length} />
       <Home onAdd={onAdd} productItem={productItem} />
       <Cart onAdd={onAdd} onRemove={onRemove} cartItems={cartItems} />
     </div>
