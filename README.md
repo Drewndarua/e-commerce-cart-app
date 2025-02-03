@@ -37,6 +37,10 @@ Start the server
   npm start
 ```
 
+## Live demo
+
+This a link to the working app: https://e-commerce-cart-app-one.vercel.app/
+
 ## License
 
 MIT License
